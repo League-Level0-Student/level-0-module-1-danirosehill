@@ -1,1 +1,10 @@
 size(600,600);
+fill(255,0,77,100);
+ellipse( 200,200, 200, 200);
+fill(33,255,0, 100);
+ellipse(350, 200, 200, 200);
+fill(3,0,255, 100);
+ellipse(275, 300, 200, 200);
+text("unadulterated chaos", 120, 200);
+text ("black coffee", 320, 200);
+text ("surfing", 260, 300);
