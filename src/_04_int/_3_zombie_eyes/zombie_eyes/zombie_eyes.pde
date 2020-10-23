@@ -1,10 +1,9 @@
+ PImage witch= loadImage("witch.jpg");
 
 void setup() {
-  PImage cat= loadImage("cat.jpeg");
   size(200,200);
-
 }
 void draw() {
-cat.resize(200,200);
-image(cat, 0, 0);
+witch.resize(50,50);
+image(witch, 100, 100);
 } //<>//
