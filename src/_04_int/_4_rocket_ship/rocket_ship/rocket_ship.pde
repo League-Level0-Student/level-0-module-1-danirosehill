@@ -1,12 +1,14 @@
+     int x = 400; 
+  int y = 300; 
+  
 void setup() {
-    size(800, 800);
+    size(800, 700);
     background(0, 0, 40); 
+   
 }
 
 void draw() {
   
-  int x = 400; 
-  int y = 600; 
 
     fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
@@ -17,9 +19,12 @@ void draw() {
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
     
-    while(y>0){
+    if (y > 0) {
     y-=1;
     }
+    
+    
+   
 }
 
   
